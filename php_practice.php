@@ -75,30 +75,30 @@
         // print $x;
 
 
-        $a = (object) '5 lkjlkj';
-        $b = (object) 5;
-        $c = (object) 4.5;
-        $d = (object) false;
-        $g = (object) null;
-        $h = (object) fopen("php_practice.php", "r");
+        // $a = (object) '5 lkjlkj';
+        // $b = (object) 5;
+        // $c = (object) 4.5;
+        // $d = (object) false;
+        // $g = (object) null;
+        // $h = (object) fopen("php_practice.php", "r");
 
-        var_dump($a);
-        echo "<br>";
-        var_dump($b);
-        echo "<br>";
-        var_dump($c);
-        echo "<br>";
-        var_dump($d);
-        echo "<br>";
-        echo "<br>";
-        var_dump($g);
-        echo "<br>";
-        var_dump($h);
-        echo "<br>";
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // echo "<br>";
+        // var_dump($g);
+        // echo "<br>";
+        // var_dump($h);
+        // echo "<br>";
 
 
-        unset($a);
-        echo $a;
+        // unset($a);
+        // echo $a;
 
         // // echo strlen($a);
 
@@ -130,11 +130,104 @@
 
         // echo is_double(10.23);
 
-       
+        //casting
+        // $a = (object) '5.1 Jerry';
+        // $b = (object) 5;
+        // $c = (object) 4.5;
+        // $d = (object) true;
+        // $g = (object) null;
+        // $h = (object) fopen("php_practice.php", "r");
+        
+        // //unset($a);
 
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // var_dump($g);
+        // echo "<br>";
+        // var_dump($h);
+        // echo "<br>";
+        
+        // $x = pi();
+        // echo $x;
+
+        // echo(min(0, 150, 20, -8, -200));
+        // echo "<br>";
+        // echo(max(0, 150, 20, -8, -200));
+        // echo "<br>";
+        // echo (abs(0));
+        // echo "<br>";
+        // echo sqrt(4);
+        // echo "<br>";
+        // echo round(5.5);
+        // echo "<br>";
+        // echo rand(5, 20);
+        // echo "<br>";
+
+        //constants
+        // $_asd = 5;
+        // define("GREETING", "HELLO");
+        // echo GREETING;
+
+        // function test(){
+        //     echo GREEETING;
+        // }
+
+        // test();
+
+        // $x = 5;
+        // // echo $x;
+
+        // var_dump(5 == 5);
+        // echo "<br>";
+        // var_dump(5 === 5);
+        // echo "<br>";
+        // var_dump(5 !== "5");
+        // echo "<br>";
+        // echo 2 <=> 2;
+        // echo "<br>";
+        
+        // //increment
+        // // pre-increment/increment
+        // $x = 5;
+        // echo ++$x;
+        // echo "<br>";
+        // //post-increment
+        // $y = 5;
+        // echo $y++;
+        // echo "<br>";
+        // echo $y;
+
+        //logical
+
+        // and && 
+        // var_dump(true && true); //true
+        // echo "<br>";
+        //var_dump(5==="5" && 5===5); // both true
+
+        //or 
+        //var_dump(true or false); //either true or false
+
+        //xor
+        //var_dump(true xor false); //cehck if one true
+
+        //not (!)
+        //var_dump(!false); // reverse
+
+        //String op
+        //.
+        //$x = "Hello" . "World";
+        //.= concat append
+        // $x = "Hello";
+        // $x .= "World";
+        // echo($x);
 
         
-
 
     ?>
 </body>
